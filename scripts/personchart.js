@@ -145,7 +145,7 @@ function drawPersonChart()
         
         context.fillStyle = '#333';
         context.textAlign = 'center';
-        context.font = 'bold 14px Helvetica';
+        context.font = 'bold 14px Muli';
         context.textBaseline = 'top';
         
         var currentPosition = personChartData[i].top + personChartData[i].height / 2.0 - (personChartData[i].nameTextLines.length * personChartData[i].nameLineSpacing + personChartData[i].dateTextLines.length * personChartData[i].dateLineSpacing) / 2.0;
@@ -157,7 +157,7 @@ function drawPersonChart()
             currentPosition += personChartData[i].nameLineSpacing;
         }
         
-        context.font = '12px Helvetica';
+        context.font = '12px Muli';
         
         currentPosition += 4.0;
         

@@ -1,19 +1,12 @@
 @font-face {
-	font-family: 'Conv_Legendum';
-	src: url('../resources/Legendum.eot');
-	src: url('../resources/Legendum.eot?#iefix') format('embedded-opentype'),
-         url('../resources/Legendum.woff') format('woff'),
-         url('../resources/Legendum.ttf') format('truetype'),
-         url('../resources/Legendum.svg') format('svg');
-	font-weight: normal;
-	font-style: normal;
+	font-family: 'Muli', sans-serif;
 }
 
 body {
     margin: 0;
     padding: 0;
     color: #FBFFEB;
-    font-family: 'Arial', sans-serif;
+    font-family: 'Muli', sans-serif;
 }
 
 #background_id {
@@ -32,12 +25,13 @@ background-size: 100% 100%;
     padding: 10px;
     max-width: 1009px;
     border-radius: 50px;
+    font-family: 'Muli', sans-serif;
 }
 
 
 
 a {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Muli', sans-serif;
 }
 
 a:link {
@@ -71,11 +65,11 @@ img {
 h1 {
     text-decoration: none;
     margin-top: 0px;
-    font-family: 'Arial', sans-serif;
+    font-family: 'Muli', sans-serif;
 }
 
 h2 {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Muli', sans-serif;
     margin: 20px 0px 5px 0px;
 }
 
@@ -87,7 +81,7 @@ table {
     width: 100%;
     table-layout: auto;
     padding: 5px;
-    font-family: 'Arial', sans-serif;
+    font-family: 'Muli', sans-serif;
     font-size: 14px;
 }
 
@@ -103,7 +97,7 @@ table tr:nth-child(odd) > td {background: rgba(118,142,26,0.9)}
 table tr:nth-child(even) > td {background: rgba(46,119,31,0.800000)}
 
 table tr th {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Muli', sans-serif;
     font-weight: bold;
 }
 
@@ -165,6 +159,7 @@ table tr td img {
 }
 
 #header_text_id {
+    font-family: 'Muli', sans-serif;
     display: table-cell;
     vertical-align: middle;
     text-align: center;
@@ -177,7 +172,7 @@ table tr td img {
     text-align: center;
     padding: 0px;
     margin: 0px;
-    font-family: 'Arial', sans-serif;
+    font-family: 'Muli', sans-serif;
     white-space: normal;
 }
 
@@ -186,6 +181,7 @@ table tr td img {
 /*Menu*/
 #menu_id {
     border-radius: 50px;
+    font-family: 'Muli', sans-serif;
 }
 
 #menu_row_id {
@@ -209,10 +205,11 @@ table tr td img {
     margin: 0px;
     margin-left: 0px;
     font-size: 16px;
+    border-radius: 25px;
 }
 
 .menu_item a {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Muli', sans-serif;
     padding: 10px;
     display: block;
     color: rgba(255,255,255,0.8);
@@ -221,6 +218,7 @@ table tr td img {
 .menu_item a:hover {
     background: rgba(255,255,255,0.8);
     color: rgba(128,128,42,0.8);
+    border-radius: 25px;
 }
 
 
@@ -255,12 +253,12 @@ table tr td img {
 
 .page_subsection h1 {
     text-decoration: none;
-    font-family: 'Arial', sans-serif;
+    font-family: 'Muli', sans-serif;
     margin-top: 0px;
 }
 
 .page_subsection h2 {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Muli', sans-serif;
     margin-bottom: 10px;
     margin-top: 0px;
     padding: 0px 0px 5px 0px;
@@ -336,7 +334,7 @@ table tr td img {
     margin: 0px 0px 5px 0px;
     padding: 1px;
     overflow: auto;
-    font-family: 'Arial', sans-serif;
+    font-family: 'Muli', sans-serif;
     font-size: 16px;
 }
 
@@ -370,7 +368,7 @@ table tr td img {
     background-color: rgba(0, 0, 0, 0.5);
     color: #EEE;
     padding: 1px;
-    font-family: 'Arial', sans-serif;
+    font-family: 'Muli', sans-serif;
     font-size: 12px;
     overflow: hidden;
     width: 100%;
@@ -408,7 +406,7 @@ table tr td img {
 #home_page_links {
     color: #FBFFEB;
     text-align: left;
-    font-family: 'Arial', sans-serif;
+    font-family: 'Muli', sans-serif;
     padding: 5px;
 }
 
@@ -417,7 +415,7 @@ table tr td img {
     top: 10px;
     right: 10px;
     color: #FBFFEB;
-    font-family: 'Arial', sans-serif;
+    font-family: 'Muli', sans-serif;
 }
 
 #gedcom_file_id {
@@ -438,11 +436,11 @@ table tr td img {
 
 #home_page_comment_id div {
     padding: 5px;
-    font-family: 'Arial', sans-serif;
+    font-family: 'Muli', sans-serif;
 }
 
 #home_page_comment_id h2 {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Muli', sans-serif;
     margin-bottom: 10px;
     padding: 0px 0px 5px 0px;
     border-bottom: 1px solid #FBFFEB;
@@ -545,7 +543,7 @@ table tr td img {
     color: #FBFFEB;
     background-color: rgba(46,119,31,0.800000);
     text-align: center;
-    font-family: 'Arial', sans-serif;
+    font-family: 'Muli', sans-serif;
     height: 45px;
     vertical-align: middle;
     line-height: 45px;
